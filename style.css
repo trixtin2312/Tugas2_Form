@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c7cd1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    display: block;
+}
+
+
+.form_pendaftaran{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(76, 76, 76);
+}
+
+.box{
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#pesan{
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#tombol{
+    background-color: rgb(5, 126, 5);
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
